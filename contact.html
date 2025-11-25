@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Contact • SJDM</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.svg" alt="SJDM logo"/><span>SJDM Constructions</span>
+    </a>
+    <div>
+      <a class="hide-sm" href="services.html">Services</a>
+      <a class="hide-sm" href="projects.html">Projects</a>
+      <a class="hide-sm" href="about.html">About</a>
+      <a class="hide-sm" href="contact.html">Contact</a>
+      <a class="btn" href="contact.html">Get Quote</a>
+      <a data-lang="en" style="margin-left:8px;cursor:pointer">EN</a> / 
+      <a data-lang="pa" style="cursor:pointer">PA</a>
+    </div>
+  </div>
+</nav>
+
+<section class="section container">
+  <h1>Contact</h1>
+  <p>Tell us about your project and we’ll revert with a ballpark in 24–48 hours.</p>
+  <div class="card">
+    <div class="pad">
+      <form onsubmit="event.preventDefault();alert('Thanks! We will contact you shortly.');">
+        <div class="grid" style="grid-template-columns:1fr 1fr;gap:1rem">
+          <input required name="name" placeholder="Name" style="padding:.8rem;border:1px solid #e4e7f0;border-radius:8px">
+          <input required name="phone" placeholder="Phone / WhatsApp" style="padding:.8rem;border:1px solid #e4e7f0;border-radius:8px">
+        </div>
+        <input required name="email" placeholder="Email" style="margin-top:1rem;width:100%;padding:.8rem;border:1px solid #e4e7f0;border-radius:8px">
+        <textarea required name="msg" placeholder="Project details" rows="5" style="margin-top:1rem;width:100%;padding:.8rem;border:1px solid #e4e7f0;border-radius:8px"></textarea>
+        <button class="cta" style="margin-top:1rem">Send enquiry</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="copy">© SJDM</div>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body></html>
